@@ -1,0 +1,36 @@
+<h1> Chamados de cabeamento estruturado</h1>
+<form action = "/cadastro" method = "POST">
+
+<div id = "container">
+<fieldset class = "fd01">
+    <legend>GERDAU-AÇONORTE </legend>
+<fieldset class = "fd">
+<legend>Dados</legend>
+    <div id = "div01">
+        <p>
+            <input type = "text" name = "chamado"  id = "bloco01" placeholder = "Numero do chamado">
+            <input type = "date" name = "data" id = "bloco01"  placeholder = "Data">
+            <input type = "text" name = "solicitante" id = "bloco01"  placeholder = "Solicitante">
+        </p>
+    </div>
+</fieldset>
+
+<fieldset class = "fd">
+<legend>Descrição</legend>
+    <div id = "div01">
+        <p>
+            <textarea name = "descricao" id = "bloco02" placeholder = "Descrição do chamado"></textarea>
+            <input type = "number" name = "centro" id = "bloco02" placeholder = "Centro de custo">
+            <input type = "text" name = "tecnico" id = "bloco02" placeholder = "Técnico responsável">    
+        </p>
+    </div>
+</fieldset>
+
+<p>
+   <button type = "submit" onclick="mostrar()">Salvar</button> 
+   <button><a href="http://localhost:8081/listagem">Lista de chamados</a></button>
+</p>
+</fieldset>
+</div>
+</form>
+

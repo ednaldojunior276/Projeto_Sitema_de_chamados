@@ -1,0 +1,77 @@
+<h1>Lista de chamados</h1>
+<a href="http://localhost:8081/cad"><button id = "btn1">Voltar para a página principal</button></a>
+
+{{#each posts}}
+<div class = "chamados">
+     <small>
+         <p>
+            {{dataValues.createdAt}} 
+         </p>
+    </small>
+        <p>
+            <span class = "sp01">
+            NUMERO DO CHAMADO:
+            </span> 
+            <span class = "sp02">
+            {{dataValues.chamado}}
+            </span>
+        </p>
+        <hr>
+        <p> 
+            <span class = "sp01">
+            DATA:
+            </span> 
+            
+            <span class = "sp02">
+            {{dataValues.data}}
+            </span>
+        </p>
+        <hr>
+        <p>
+            <span class = "sp01">
+            SOLICITANTE:
+            </span> 
+        
+            <span class = "sp02">
+            {{dataValues.solicitante}}
+            </span>
+        </p>
+        <hr>
+        <p>
+            <span class = "sp01">
+            DESCRÇÃO DO CHAMADO:
+            </span> 
+        
+            <span class = "sp02">
+            {{dataValues.descricao}}
+            </span>
+        </p>
+        <hr>
+        <p>
+            <span class = "sp01">
+            CENTRO DE CUSTO: 
+            </span>
+            
+            <span class = "sp02">
+            {{dataValues.centro}}
+            </span>
+        </p>
+        <hr>
+        <p>
+            <span class = "sp01">
+            TÉCNICO RESPONSÁVEL: 
+            </span>
+            <span class = "sp02">
+            {{dataValues.tecnico}}
+            </span>
+        </p>
+        <hr>
+        <p>   
+    
+        <div id = "botao">
+            <a href = "/deletar/{{dataValues.id}}"><button id = "btn">Deletar chamado</button></a>
+        </div>
+    </p>
+  </div>   
+{{/each}}
+
