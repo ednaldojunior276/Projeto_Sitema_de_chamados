@@ -1,0 +1,48 @@
+.chamados{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkgoldenrod;
+
+}
+
+#btn{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+#botao{
+    text-align: center;
+}
+#btn1{
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    margin: 10px;
+}
+
+#btn1 a:hover{
+    background-color: royalblue;
+}
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    
+}
+#post{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color:black;
+}
+.sp01{
+    color:black;
+    font-family:fantasy;
+    font-style: normal;
+}
+.sp02{
+    color: white;
+    margin-left: 10px;
+    font-size: 15pt;
+}

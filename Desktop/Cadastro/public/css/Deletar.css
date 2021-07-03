@@ -1,0 +1,40 @@
+p{
+    color: red;
+    font-size: 20pt;
+    text-align: center;
+    font-style: italic;
+
+    
+
+}
+
+button a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    
+    
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: honeydew;
+}
+.lista{
+       
+    position: relative;
+    top: 100px;
+    border: 1px solid black;
+    padding: 50px;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+ 
+}
+body{
+    background-color:lightseagreen;
+}
+
