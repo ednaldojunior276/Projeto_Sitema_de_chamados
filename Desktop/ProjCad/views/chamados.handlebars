@@ -1,0 +1,35 @@
+
+<div id = "cab">
+       <ul id = "menu">
+           
+           <li> Numero do chamado</li>
+            <li>Data</li>
+            <li>Solicitante</li>
+            <li>descrição do chamado</li>
+            <li>Centro de custo</li>
+            <li>Técnico resposavel</li>
+       
+        </ul>
+
+</div>
+{{#each lista}}
+<table>
+    <div id = "t">
+          <tr> 
+  
+                <td id = "b">{{dataValues.numero}}</td> 
+                <td id = "c">{{dataValues.data}}</td>
+                <td id = "b">{{dataValues.nome}}</td> 
+                <td id = "c">{{dataValues.descricao}}</td> 
+                <td id = "b">{{dataValues.centrocusto}}</td> 
+                <td id = "c">{{dataValues.tecnico}}</td> 
+                <td id = "del"> <a href="/del/{{dataValues.id}}">Deletar</a> </td>
+               
+       
+        </tr>
+    </div>
+
+ </table>
+
+{{/each}}
+<a href="http://localhost:8081/cad"><button id = "btn02">Voltar</button> </a>

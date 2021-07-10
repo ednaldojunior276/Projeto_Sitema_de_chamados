@@ -1,0 +1,47 @@
+.b01{
+    display: flex;
+    margin: 30px;
+  
+    
+}
+
+.b02{
+    display: flex;
+    margin: 30px;
+  
+    
+}
+#bloco01{
+    margin: 2px;
+    width: 250px;
+}
+#bloco02{
+    margin: 2px;
+    width: 250px;
+}
+.border{
+    position: absolute;
+    border: 1px solid black;
+    padding: 10px;
+    background-color:wheat;
+    color: black;
+    margin-left: 270px;
+    top: 100px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+button{
+    width:  200px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: darkcyan;
+}
